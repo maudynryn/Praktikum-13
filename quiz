@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+    int bilangan_1, bilangan_2, hasil_perkalian, hasil_pembagian, hasil_tambah, hasil_kurang;
+    void perkalian();
+    void pembagian();
+    void tambah();
+    void kurang();
+
+    main ()
+    {
+        cout << "Masukkan bilangan 1 : " << endl;
+        cin >> bilangan_1;
+        cout << "Masukkan bilangan 2 : " << endl;
+        cin >> bilangan_2;
+        perkalian ();
+        pembagian();
+        tambah ();
+        kurang ();
+    }
+
+        void perkalian()
+        {
+
+        hasil_perkalian=bilangan_1*bilangan_2;
+        cout << "Hasil perkalian adalah : " << endl;
+        cout << hasil_perkalian;
+        }
+
+        void pembagian()
+        {
+
+        hasil_pembagian=bilangan_1/bilangan_2;
+        cout<<endl;
+
+        cout << "Hasil pembagian adalah : " << endl;
+        cout << hasil_pembagian;
+        }
+
+         void tambah()
+        {
+
+
+        hasil_tambah=bilangan_1+bilangan_2;
+        cout<<endl;
+
+        cout << "Hasil penjumlahan adalah : " << endl;
+        cout << hasil_tambah;
+        }
+
+         void kurang()
+        {
+
+        hasil_kurang=bilangan_1-bilangan_2;
+        cout<<endl;
+
+        cout << "Hasil pengurangan adalah : " << endl;
+        cout << hasil_kurang;
+        }
