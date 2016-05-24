@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+    int sisi;
+    int luas_segiempat;
+    int keliling_segiempat;
+    void luas();
+    void keliling();
+
+main()
+{
+    cout<<"Panjang sisi = ";
+    cin>>sisi;
+
+    luas();
+    keliling();
+}
+    //implementasi fungsi
+    void luas()
+    {
+        luas_segiempat=sisi*sisi;
+
+        cout<<endl;
+        cout<<"Luas Segiempat = ";
+        cout<<luas_segiempat;
+    }
+        void keliling()
+        {
+
+        keliling_segiempat=sisi*4;
+
+        cout<<endl;
+        cout<<"Keliling Segiempat = ";
+        cout<<keliling_segiempat;
+        cout<<endl;
+    }
+
+
